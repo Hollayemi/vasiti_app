@@ -5,6 +5,7 @@
 }
 .strongHeader{
     font-weight: 900;
+    /* width: fit-content; */
 }
 .exp-text{
     line-height:30px;

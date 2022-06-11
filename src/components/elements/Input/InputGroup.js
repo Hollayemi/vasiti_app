@@ -48,7 +48,6 @@ const InputGroup = ({
                 htmlFor={name}
                 className="block text-xs text-gray-400 tracking-wider mb-1"
             >
-                {label || 'Input Label'}
                 {required && (
                     <span className="text-red-600 dark:text-red-500">*</span>
                 )}
@@ -88,8 +87,8 @@ const InputGroup = ({
                         id={name}
                         type={type || 'text'}
                         className={`${size === 'sm' && 'p-2'}  ${
-                            (size === 'lg' && 'p-4') || 'p-2.5'
-                        } border border-gray-200 text-gray-600 placeholder-text-xs text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 shadow-sm`}
+                            (size === 'lg' && 'p-4') || 'p-2'
+                        } border border-gray-200 text-gray-600 placeholder-text-xs text-sm rounded-md focus:ring-blue-500 focus:border-blue-500 block w-full p-2 shadow-sm mb-0`}
                         onChange={onChange}
                         onFocus={onFocus}
                         name={name}

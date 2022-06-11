@@ -2,6 +2,7 @@ import { useRoutes } from 'react-router-dom';
 import LazyLoading from '../components/LazyLoading';
 
 const ShareStory = LazyLoading(() => import('../pages/Story/Share'));
+const Soolvi = LazyLoading(() => import('../pages/soolvi'));
 
 //err handlers
 const NotFound = LazyLoading(() => import('../pages/NotFound'));
@@ -15,7 +16,7 @@ const AppRoutes = () => {
     let allRoutes = useRoutes([
         {
             path: '/',
-            children: [{ element: <Home />, index: true }],
+            children: [{ element: <Soolvi />, index: true }],
         },
         {
             path: '/share-story',

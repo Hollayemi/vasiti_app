@@ -50,7 +50,7 @@ export const ImageNote = ({ image, heading, note, backdrop, second }) => {
                     />
                 </div>
                 <div className="w-full md:w-1/2 flex justify-center">
-                    <div className="w-full py-4 md:py-0 md:w-4/6">
+                    <div className="w-full py-4 md:py-0 md:w-5/6">
                         <h5
                             className={`font-bold text-2xl text-white ${
                                 second && 'text-gray-700'

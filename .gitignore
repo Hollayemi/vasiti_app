@@ -3,6 +3,9 @@
 # dependencies
 /node_modules
 /node_modules2
+/src/pages/Story
+/src/pages/website
+/src/state
 /.pnp
 .pnp.js
 /package-lock.json
@@ -23,3 +26,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Local Netlify folder
+.netlify
